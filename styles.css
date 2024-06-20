@@ -1,0 +1,130 @@
+body {
+    margin-block: 0rem;
+}
+
+h2 {
+    color: #80674e;
+    font-family: "Bowlby One", sans-serif;
+    font-style: normal;
+}
+
+p {
+    color: #ffffff;
+    font-size: larger;
+    font-family: "Comic Neue", cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #80674e;
+}
+
+#main-container {
+    background-color: #DFD3C6;
+    padding-block-end: 7rem;
+}
+
+#header {
+    text-align: center;
+    padding-block: 2rem;
+}
+
+#header img {
+    width: 150px;
+}
+
+#banner {
+    display: block;
+}
+
+#banner img {
+    width: 303px;
+}
+
+#banner p {
+    flex-basis: 30%;
+    align-self: center;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: rgb(110, 141, 202) -3px 0 10px;
+    font-family: "Comic Neue", cursive;
+}
+
+#our_services {
+    text-align: center;
+    margin-block: 7rem;
+}
+
+#our_services p {
+    text-shadow: rgb(110, 141, 202) -5px 0 10px;
+    font-size: x-large;
+}
+
+#portfolio {
+    display: block;
+}
+
+#portfolio div {
+    text-align: center;
+}
+
+#portfolio h2 {
+    margin-block-end: 3rem;
+}
+
+#client_declarations p {
+    text-shadow: rgb(110, 141, 202) -3px 0 10px;
+}
+
+#latest_effects-links {
+    display: block;
+}
+
+#latest_effects-links a {
+    color: #ffffff;
+    text-shadow: rgb(110, 141, 202) -3px 0 10px;
+}
+
+#latest_effects-links div:hover {
+    background-color: #80674e;
+}
+
+#footer {
+    padding-inline-start: 1rem;
+}
+
+#footer a:hover {
+    font-size: x-large;
+}
+
+#footer p {
+    block-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    #header img {
+        width: max-content;
+    }
+
+    #banner {
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #banner img {
+        width: max-content;
+    }
+
+    #portfolio {
+        display: flex;
+    }
+    
+    #portfolio div {
+        flex-basis: 50%;
+    }
+
+    #latest_effects-links {
+        display: flex;
+    }
+}
