@@ -8,7 +8,7 @@ h2 {
     font-style: normal;
 }
 
-p {
+p, figcaption {
     color: #ffffff;
     font-size: larger;
     font-family: "Comic Neue", cursive;
@@ -64,7 +64,7 @@ a {
     display: block;
 }
 
-#portfolio div {
+#portfolio section {
     text-align: center;
 }
 
@@ -72,8 +72,16 @@ a {
     margin-block-end: 3rem;
 }
 
+#portfolio img {
+    height: 100px;
+}
+
 #client_declarations p {
     text-shadow: rgb(110, 141, 202) -3px 0 10px;
+}
+
+#latest_effects h2 {
+    margin-block-end: 38px;
 }
 
 #latest_effects-links {
@@ -85,7 +93,7 @@ a {
     text-shadow: rgb(110, 141, 202) -3px 0 10px;
 }
 
-#latest_effects-links div:hover {
+#latest_effects-links figure:hover {
     background-color: #80674e;
 }
 
@@ -120,8 +128,12 @@ a {
         display: flex;
     }
     
-    #portfolio div {
+    #portfolio section {
         flex-basis: 50%;
+    }
+
+    #portfolio figure {
+        flex-basis: 33%;
     }
 
     #latest_effects-links {
