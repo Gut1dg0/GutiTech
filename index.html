@@ -1,79 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta name="author" content="Agustin C.">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GutiTech</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="icon" href="media/Gutitech_favicon.svg" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/a75fb2b62f.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <main id="main-container">
-        <header id="header">
-            <img src="media/Gutitech_logo.png" height="50px">
-        </header>
-        <section id="banner">
-            <img src="media/Gutitech_opening.png">
-            <p>We help you build amazing AR experiences that keep your customers engaged!</p>
-        </section>
-        <section id="our_services">
-            <h2>Our Services</h2>
-            <p>Wouldn't it be nice to show your clients what your product does
-                or to let them try it out with just one click?
-            </p>
-            <p>We help you do just that!
-                We build customized AR effects that you can share on
-                Instagram,<br> Facebook and Messenger to potentially showcase your products to millions of users.
-            </p>
-        </section>
-        <section id="portfolio">
-            <section id="client_declarations">
-                <h2>Our effects speak out for us</h2>
-                <p>The AR effect we created for <a href="https://www.barbanortena.com/">Barba Norteña</a> reached and was used by thousands of users just on the first day.</em>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GutiTech</title>
+        <link rel="icon" href="media/Gutitech_favicon.svg" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a75fb2b62f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main id="main-container">
+            <!--<header id="header">
+                <img src="media/Gutitech_logo.png" height="50px">
+            </header>-->
+            <section id="banner">
+                <img src="media/Gutitech_opening.png">
+                <p>Hello! My name is <span id="name">Agustin Compean</span> and I'll help you build amazing AR experiences that keep your customers engaged!</p>
+            </section>
+            <section id="our_services">
+                <h2>My Services</h2>
+                <!--<p>Wouldn't it be nice to show your clients what your product does
+                    or to let them try it out with just one click?
+                </p>-->
+                <p>I'm specialized in the use of Meta Spark Studio to create
+                customized AR effects<br>for the suite of Meta platforms, such as
+                Instagram, Facebook and Messenger.
                 </p>
             </section>
-            <section id="latest_effects">
-                <h2>Try Some of Our Latest Effects</h2>
-                <div id="latest_effects-links">
-                    <figure>
-                        <a href="https://www.instagram.com/ar/928082602192096/" target="_blank"><img src="media/Gutitech_effects.png"></a>
-                        <figcaption>
+            <section id="portfolio">
+                <h2>My AR effects speak out for me</h2>
+                <section class="effects">
+                    <div>
+                        <p>The AR effect we created for <a href="https://www.barbanortena.com/">Barba Norteña</a> was used by thousands of users just on the first day.
+                        </p>
+                        <p style="color: #80674e;">Technical details:
+                            <ul style="color: #80674e;">
+                                <li>Use of Occluders to hide parts of the hat in order to make it look more realistic.</li>
+                                <li>Use of a script to handle the slider functionality in order to allow the user to adjust the size of the hat.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/ar/928082602192096/" target="_blank"><img src="media/barba_nortena.png" width="200px"></a>
+                        <p>
                             <a href="https://www.instagram.com/ar/928082602192096/" target="_blank">Barba Norteña - Classic</a>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <a href="https://www.instagram.com/ar/450752670864924/" target="_blank"><img src="media/Gutitech_effects.png"></a>
-                        <figcaption>
-                            <a href="https://www.instagram.com/ar/450752670864924/" target="_blank">Wooden Piano</a>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <a href="https://www.instagram.com/ar/1777167076110583/" target="_blank"><img src="media/Gutitech_effects.png"></a>
-                        <figcaption>
+                        </p>
+                    </div>
+                </section>
+                <section class="effects">
+                    <div>
+                        <p>This is an AR effect I created in memory of the total eclipse of the sun that was seen in parts of North America this past April 8th, 2024.
+                        </p>
+                        <p style="color: #80674e;">Technical details:
+                            <ul style="color: #80674e;">
+                                <li>Use of a custom script to manage the Hand Tracking functionality in order to detect when a hand is located near or in the same position as the 3D Sun.</li>
+                                <li>Use of canvas and texture extraction to change the background color of the scene.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/ar/1777167076110583/" target="_blank"><img src="media/total_eclipse.png" width="200px"></a>
+                        <p>
                             <a href="https://www.instagram.com/ar/1777167076110583/" target="_blank">Total Eclipse</a>
-                        </figcaption>
-                    </figure>
-                </div>
+                        </p>
+                    </div>
+                </section>
+                <section class="effects">
+                    <div>
+                        <p>This is an AR effect I created because of my passion for music and more specifically for piano music.
+                        </p>
+                        <p style="color: #80674e;">Technical details:
+                            <ul style="color: #80674e;">
+                                <li>Use of a custom script to manage the Hand Tracking functionality in order to detect when a hand is located near or in the same position as the keys of the piano.</li>
+                                <li>Use of the audio set of patches in order to handle audio functionality</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/ar/450752670864924/" target="_blank"><img src="media/wooden_piano.png" width="200px" height="350px"></a>
+                        <p>
+                            <a href="https://www.instagram.com/ar/450752670864924/" target="_blank">Wooden Piano</a>
+                        </p>
+                    </div>
+                </section>
             </section>
-        </section>
-    </main>
-    <footer id="footer">
-        <h2>Contact Us</h2>
-        <p><a href="https://wa.me/+5216771050284" target="_blank"><i class="fa-brands fa-square-whatsapp fa-xl"></i>
-                6771050284</a></p>
-        <p><a href="https://www.instagram.com/gutitech10/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i>
-                @gutitech10</a></p>
-        <p><a href="https://www.facebook.com/gutitech10/" target="_blank"><i
-                    class="fa-brands fa-square-facebook fa-xl"></i> gutitech10</a></p>
-    </footer>
-    <script src="index.js"></script>
-</body>
+        </main>
+        <footer id="footer">
+            <h2>Contact Me</h2>
+            <p><a href="https://www.linkedin.com/in/agustin-compean/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i>
+            Agustin Compean</a></p>
+            <p><a href="mailto:agustin.compeanc@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-xl"></i>
+                agustin.compeanc@gmail.com</a></p>
+            <!--<p><a href="https://wa.me/+5216771050284" target="_blank"><i class="fa-brands fa-square-whatsapp fa-xl"></i>
+            6771050284</a></p>-->
+            <!--<p><a href="https://www.instagram.com/gutitech10/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i>
+            @gutitech10</a></p>-->
+            <!--<p><a href="https://www.facebook.com/gutitech10/" target="_blank"><i
+            class="fa-brands fa-square-facebook fa-xl"></i> gutitech10</a></p>-->
+        </footer>
+        <script src="index.js"></script>
+    </body>
 </html>
